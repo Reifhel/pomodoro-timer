@@ -13,6 +13,10 @@ export const FormContainer = styled.div`
   font-weight: bold;
 
   flex-wrap: wrap;
+
+  @media (max-width: 430px) {
+    font-size: 1rem;
+  }
 `;
 
 const baseInput = styled.input`

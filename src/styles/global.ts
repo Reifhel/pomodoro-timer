@@ -23,4 +23,12 @@ export const GlobalStyle = createGlobalStyle`
         font-weight: 400;
         font-size: 1rem;
     }
+
+    @media (max-width: 430px) {
+        body,input, textarea, button {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 0.875rem;
+        }
+    }
 `;

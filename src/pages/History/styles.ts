@@ -11,6 +11,10 @@ export const HistoryContainer = styled.main`
     font-size: 1.5rem;
     color: ${(props) => props.theme["gray-100"]};
   }
+
+  @media (max-width: 768px) {
+    padding: 1rem;
+  }
 `;
 
 export const HistoryList = styled.div`
@@ -58,6 +62,11 @@ export const HistoryList = styled.div`
         padding-right: 1.5rem;
       }
     }
+  }
+
+  @media (max-height: 1000px) {
+    max-height: calc(100vh - 25rem);
+    overflow-y: auto;
   }
 `;
 
